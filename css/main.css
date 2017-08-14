@@ -172,6 +172,60 @@ footer textarea {
 	transition: 0.3s all ease-in-out;
 }
 
+/* Footer Section */
+
+body > footer {
+	background: #F8F9FD;
+	height: 200px;
+	padding: 0 20%;
+	position: relative;
+}
+
+.previous-article,
+.next-article {
+	display: inline-block;
+	position: relative;
+	width: 50%;
+}
+
+.previous-article {
+	left: 20%;
+	position: absolute;
+}
+
+.previous-button {
+	text-align: left;
+}
+
+.next-article {
+	position: absolute;
+	right: 20%;
+}
+
+.next-button {
+	text-align: right;
+}
+
+.previous-button,
+.next-button {
+	margin: 10% 0;
+}
+
+.previous-button a,
+.next-button a {
+	color: #434345;
+	font-weight: bold;
+	margin: 3% 0;
+	text-decoration: none;
+}
+
+.previous-button p,
+.next-button p {
+	font-weight: normal;
+	margin: 3% 0;
+}
+
+
 
 
 
