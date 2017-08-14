@@ -73,6 +73,55 @@ header p {
 	margin: 3% 0;
 }
 
+section > div {
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+}
+
+section > div p {
+	color: #565656;
+	font-size: 16px;
+	line-height: 30px;
+	padding: 0 15%;
+	margin: 3% 0;
+	text-align: left;
+}
+
+.personal-quote {
+	font-family: 'Petit Formal Script', cursive;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 36px;
+	margin: 0 auto;
+	text-align: center;
+	width: 60%;
+}
+
+.img-wrap {
+	height: 450px;
+}
+
+.img-wrap img {
+	float: left;
+}
+
+.img-wrap img:first-child {
+	margin-left: 9%;
+}
+
+.img-wrap img:nth-child(n+2) {
+	margin-left: 7px;
+}
+
+.img-wrap img:last-child {
+	margin-top: 7px;
+}
+
+
+
+
+
 
 
 
